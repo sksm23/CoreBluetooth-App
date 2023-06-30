@@ -12,6 +12,7 @@ struct CoreBluetooth_AppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            .environmentObject(CoreBluetoothManager())
         }
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4313991C29880DED00A3B16A /* CoreBluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4313991B29880DED00A3B16A /* CoreBluetoothManager.swift */; };
+		4313991F2988337900A3B16A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4313991E2988337900A3B16A /* ListView.swift */; };
 		431D40D42987E5A300049473 /* CoreBluetooth_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D40D32987E5A300049473 /* CoreBluetooth_AppApp.swift */; };
 		431D40D62987E5A300049473 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D40D52987E5A300049473 /* ContentView.swift */; };
 		431D40D82987E5A600049473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431D40D72987E5A600049473 /* Assets.xcassets */; };
@@ -14,6 +16,11 @@
 		431D40E52987E5A600049473 /* CoreBluetooth_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D40E42987E5A600049473 /* CoreBluetooth_AppTests.swift */; };
 		431D40EF2987E5A600049473 /* CoreBluetooth_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D40EE2987E5A600049473 /* CoreBluetooth_AppUITests.swift */; };
 		431D40F12987E5A600049473 /* CoreBluetooth_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D40F02987E5A600049473 /* CoreBluetooth_AppUITestsLaunchTests.swift */; };
+		434A7819299C991A0030C7E0 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434A7818299C991A0030C7E0 /* Helper.swift */; };
+		434A781B299C99E50030C7E0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434A781A299C99E50030C7E0 /* DetailView.swift */; };
+		434A781E299C9E790030C7E0 /* FoundPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434A781D299C9E790030C7E0 /* FoundPeripheral.swift */; };
+		434A7820299C9E980030C7E0 /* FoundCharacteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434A781F299C9E980030C7E0 /* FoundCharacteristic.swift */; };
+		434A7822299C9EAA0030C7E0 /* FoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434A7821299C9EAA0030C7E0 /* FoundService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4313991B29880DED00A3B16A /* CoreBluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothManager.swift; sourceTree = "<group>"; };
+		4313991E2988337900A3B16A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		431D40D02987E5A300049473 /* CoreBluetooth-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreBluetooth-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		431D40D32987E5A300049473 /* CoreBluetooth_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetooth_AppApp.swift; sourceTree = "<group>"; };
 		431D40D52987E5A300049473 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,12 @@
 		431D40EA2987E5A600049473 /* CoreBluetooth-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreBluetooth-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		431D40EE2987E5A600049473 /* CoreBluetooth_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetooth_AppUITests.swift; sourceTree = "<group>"; };
 		431D40F02987E5A600049473 /* CoreBluetooth_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetooth_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		434A77FF299A97D30030C7E0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434A7818299C991A0030C7E0 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		434A781A299C99E50030C7E0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		434A781D299C9E790030C7E0 /* FoundPeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundPeripheral.swift; sourceTree = "<group>"; };
+		434A781F299C9E980030C7E0 /* FoundCharacteristic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundCharacteristic.swift; sourceTree = "<group>"; };
+		434A7821299C9EAA0030C7E0 /* FoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4313991D2988335800A3B16A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				431D40D52987E5A300049473 /* ContentView.swift */,
+				4313991E2988337900A3B16A /* ListView.swift */,
+				434A781A299C99E50030C7E0 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		431D40C72987E5A300049473 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +119,12 @@
 		431D40D22987E5A300049473 /* CoreBluetooth-App */ = {
 			isa = PBXGroup;
 			children = (
+				4313991B29880DED00A3B16A /* CoreBluetoothManager.swift */,
+				434A781C299C9E4A0030C7E0 /* Models */,
+				434A7817299C98FE0030C7E0 /* Helper */,
+				4313991D2988335800A3B16A /* View */,
+				434A77FF299A97D30030C7E0 /* Info.plist */,
 				431D40D32987E5A300049473 /* CoreBluetooth_AppApp.swift */,
-				431D40D52987E5A300049473 /* ContentView.swift */,
 				431D40D72987E5A600049473 /* Assets.xcassets */,
 				431D40D92987E5A600049473 /* Preview Content */,
 			);
@@ -125,6 +154,24 @@
 				431D40F02987E5A600049473 /* CoreBluetooth_AppUITestsLaunchTests.swift */,
 			);
 			path = "CoreBluetooth-AppUITests";
+			sourceTree = "<group>";
+		};
+		434A7817299C98FE0030C7E0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				434A7818299C991A0030C7E0 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		434A781C299C9E4A0030C7E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				434A781D299C9E790030C7E0 /* FoundPeripheral.swift */,
+				434A7821299C9EAA0030C7E0 /* FoundService.swift */,
+				434A781F299C9E980030C7E0 /* FoundCharacteristic.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +304,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434A7822299C9EAA0030C7E0 /* FoundService.swift in Sources */,
+				434A781E299C9E790030C7E0 /* FoundPeripheral.swift in Sources */,
+				434A7820299C9E980030C7E0 /* FoundCharacteristic.swift in Sources */,
+				4313991F2988337900A3B16A /* ListView.swift in Sources */,
+				434A781B299C99E50030C7E0 /* DetailView.swift in Sources */,
 				431D40D62987E5A300049473 /* ContentView.swift in Sources */,
+				434A7819299C991A0030C7E0 /* Helper.swift in Sources */,
 				431D40D42987E5A300049473 /* CoreBluetooth_AppApp.swift in Sources */,
+				4313991C29880DED00A3B16A /* CoreBluetoothManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +474,9 @@
 				DEVELOPMENT_TEAM = 5BAT47P8H3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CoreBluetooth-App/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app require your permission to access phone Bluetooth";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app require your permission to access phone Bluetooth";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +506,9 @@
 				DEVELOPMENT_TEAM = 5BAT47P8H3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CoreBluetooth-App/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app require your permission to access phone Bluetooth";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app require your permission to access phone Bluetooth";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
